@@ -1,0 +1,28 @@
+{
+  "name": "SpendSmart — Personal Expense Tracker",
+  "short_name": "SpendSmart",
+  "description": "Track expenses, set budgets, and gain spending insights. Free personal finance tracker.",
+  "start_url": "./expense-tracker.html",
+  "display": "standalone",
+  "background_color": "#0f1117",
+  "theme_color": "#4f9ef8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "screenshots": [],
+  "lang": "en",
+  "dir": "ltr"
+}
