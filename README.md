@@ -1,3 +1,4 @@
+
 # 💰 SpendSmart — Personal Expense Tracker
 
 > A free, private, and fully-featured personal finance web app built with HTML, CSS & JavaScript.  
@@ -177,6 +178,21 @@ That's it — the app runs completely in your browser. No npm, no server, no set
 ## 👩‍💻 Developer
 
 > 💪 *This project was ideated, designed, developed, and deployed entirely by **Pratiksha Lokhande** — from scratch, independently.*
+
+---
+
+## ⚠️ Known Limitations
+
+| Limitation | Details |
+|---|---|
+| **localStorage Security** | Passwords and user data are stored in browser localStorage which is accessible via browser dev tools — not recommended for production use |
+| **No cross-device sync** | Data is saved only in the browser you use — switching devices or browsers shows empty data |
+| **Data loss risk** | Clearing browser cache or storage deletes all saved transactions and budgets permanently |
+| **No email verification** | Users can sign up with any email — no verification is done |
+| **No forgot password** | Password reset via email is not available in this version |
+| **Single browser only** | App works only in the browser it was first used — no cloud backup |
+
+> 🔧 **All of these limitations will be fixed in the next version** by integrating **Firebase Authentication** for secure login and **Firestore** as a real cloud database.
 
 ---
 
